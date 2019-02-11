@@ -1,0 +1,102 @@
+Configure Subversion version control system on Linux and Windows Machines
+Configure Git repositories ( with your name-repo ) and give access to all other members
+Migrate a repository from one machine to another machine
+Create a Bare repository
+How do I discard unstaged changes in Git?
+Find and restore a deleted file in a Git repository
+How to undo 'git add' before commit?
+How to remove local (untracked) files from the current Git working tree?
+Is there a way to remove all ignored files from a git repo? 
+How do i remove local repository
+How do i remove remote repository
+How do i remove both local and remote repository
+How do I rename a local Git branch?
+How do i delete a commit for a branch
+How do I undo the most recent commits in Git?
+How to modify existing, unpushed commits?
+How do I force “git pull” to overwrite local files?
+How can I add an empty directory to a Git repository?
+How do i View the change history of a file using Git versioning
+How do i Remove a file from a Git repository without deleting it from the local filesystem
+How to delete a remote tag?
+How to list all the files in a commit?
+How to get the current branch name in Git?
+How do i show which files have changed between two revisions
+How do I show the changes which have been staged?
+How do i compare 2 branches in Git
+How do i download a specific tag with git from remote
+What is a credential helper
+Is there a way to skip password typing when using https:// on GitHub?
+What does cherry-picking a commit with Git mean?
+How to change the commit author for one specific commit?
+How to list only the file names that changed between two commits?
+What are the differences between .gitignore and .gitkeep?
+How do i view all the unpushed git commits
+How do i make the current branch as master branch
+How do you merge two Git repositories?
+How to fully delete a git repository created with init?
+How to remove files from Git commit
+How can I view a git log of just one user's commits?
+How do i undo a git reset
+What are the differences between “git commit” and “git push”?
+How do I list only local branches?
+How to revert multiple git commits?
+How do I delete unpushed git commits?
+How can i delete a git commit but keep the changes
+How do i find out which remote branch a local branch is tracking
+How to search a Git repository by commit message?
+How do i Count number of lines in a git repository
+How to list all commits that changed a specific file?
+How can one change the timestamp of an old commit in Git?
+How to cancel a local git commit
+How to convert a normal Git repository to a bare one?
+Is there a command to undo git init?
+How do i undo a git push
+How do i list all the remote git branches
+How do i list all git tags
+How do I create a new Git branch from an old commit? 
+What's the difference between 'git merge' and 'git rebase'?
+How to save username and password in git
+How to create a new branch from a tag?
+What's the difference between HEAD, working tree and index, in Git?
+What's the difference between git clone --mirror and git clone --bare
+What's the difference between “git reset” and “git checkout”?
+How to count total lines changed by a specific author in a Git repository?
+How do i push code to 2 remote branches
+How do i compare 2 tags
+How to get the latest tag name in current branch in Git?
+What does the term “porcelain” mean in Git?
+How to use git bisect?
+How do i force add  despite the .gitignore file
+How to rename a git repository?
+How do i find the parent branch of a Git branch
+How to read last commit comment?
+How do I run git log to see changes only for a specific branch?
+What is the difference between git clone and checkout?
+How to update/checkout a single file from remote origin master?
+How can I list all the deleted files in a git repository?
+How to determine when a Git branch was created?
+How do I work with a git repository within another repository?
+How to find/identify large commits in git history?
+How do i find unmerged git branches
+What is the differences between  git pull origin master & git pull origin/master
+When to delete branches in Git?
+What is the differences between branching and forking
+How to remove selected commit log entries from a Git repository while keeping their changes?
+How do i find the size of the git repo
+How can i get number of commits per author on all branches
+How to find what a commit did?
+how to delete all commit history in github?
+How do i commit only specific files 
+What is the differences between author and committer
+How do i configure ssh with git
+What are the file limits in Git (number and size)?
+What does a git blame do?
+What is the differences between HEAD and master
+What is the difference between fork and clone
+What is the difference between “git branch” and “git checkout -b”?
+How to see which commits in one branch aren't in the other?
+How can I retrieve the remote git address of a repo?
+What are the git concepts of HEAD, master and Origin
+What does the git index contain exactly
+===========================   DONE ==========================
