@@ -1,0 +1,84 @@
+What is Ansible?
+What are the advantages of using ansible?
+what is difference between an automation tool and a configuration management tool?
+what is the difference between ansible and chef?
+How does ansible work?
+Is there a Web Interface or REST api for ansible?
+What is a inventory file in ansible?
+what is a ansible playbook?
+what are the different types of passing variables to ansible playbook?
+What is the difference between ansible playbook and role?
+what is the use of setup module?
+how to run shell commands using ansible?
+What is the difference between raw, command and shell modules?
+What are the necessary software to run a ansible tool?
+How to install ansible using the python pip module?
+How to debug a ansible task?
+What is ansible tower?
+How do you access environment variables?
+What is an yml file?
+does ansible support json format?
+What is that ansible can do?
+What is ansible galaxy?
+which language does ansible is written?
+What are modules in ansible?
+can i write my own module?
+How to list all the hosts defined in the inventory file?
+How do you include a playbook into another playbook?
+How do you save the output of the command ran on the remote machine and show it on the 
+  controller machine ?
+What is the use of local_action?
+How does variable register works in ansible?
+How do you list all tags defined in a playbook?
+what is the use of delegate_to in ansible?
+How do you make ansible to wait for port to up and running?
+What is the use of pipelining in ansible?
+What is the user of gather_facts?
+how to disable the gather_facts?
+What is the use of dry run in ansible?
+How to run a ansible playbook step by step?
+How can i pause a playbook for 30 seconds?
+How can i find the number of tasks defined in the anisble playbook?
+How can i perform the syntax checking for the ansible playbook?
+How can i send email from ansible?
+What does Fact mean in Ansible?
+What is ask_pass in ansible?
+Explain What is ask_sudo_pass
+Explain what is ask_vault_pass?
+Explain Callback_plugin in Ansible?
+Explain in detail about ad-hoc command?
+How do you test your ansible code?
+What mechanism is ansible, pull or push
+what is the difference between pull and push mechanisms?
+What is a dynamic inventory in ansible?
+How can I set the PATH or any other environment variable for a task or entire playbook?
+How do I handle different machines needing different user accounts or ports to log in with?
+What is a jump host? and how to configure that?
+How do I see all the inventory variables defined for my host?
+How do I see all the variables specific to my host?
+How do I loop over a list of hosts in a group, inside of a template?
+How do I copy files recursively onto a target host?
+How do I access shell environment variables?
+How do I keep secret data in my playbook?
+What is a vault in ansible?
+How can i create a directory with 750 permissions?
+How can i run the source command on the remote machine for bashrc?
+What is the use of get_url module in ansible?
+How can i delete a directory using ansible?
+How can i take a backup of the template while modifying using ansible?
+How can i check if file exits in a specific location or not using ansible?
+How can i use ansible to check if a url is up and running?
+Can i download files from internet using ansible?
+How can i use ansible to find strings in a file?
+How can i search for a string in the output of a command using ansible?
+How can i run a job background using ansible?
+How can i poll for a job for every few intervals time using ansible?
+How do you start a service using ansible?
+What are the difference between host variables and group variables?
+How can we tell ansible to force privilege escalation?
+How can you ignore errors in the ansible playbook?
+How can i reactivate the unreachable hosts?
+How can i abort a playbook if there are any errors?
+
+
+
