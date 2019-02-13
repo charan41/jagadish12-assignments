@@ -1,0 +1,60 @@
+Adhoc Commands
+==============
+1. Configure 2 System with Ansible controller and Remote Machine and Run the Ping command successfully
+2. Run a ping command on the local machine
+3. Check the Remote Machine System Configuration 
+4. Create a New User with your name in the remote machine
+5. Create a sample text file test.txt on /tmp and set the file permission to 644
+7. Create a directory in the /tmp location with name hello
+8. Install a httpd package in remote machine 
+9. Start the httpd service for the httpd package that you installed above
+10. Check if httpd package is installed & update it
+11. Check if package is installed & don’t update it
+12. Check if package is at a specific version
+13. Delete the httpd package from remote machine
+14. Run a Sample shell script on the remote machine
+15. Copy a Httpd.conf file to the httpd server /etc/httpd/ location 
+16. Change the Port number in the httpd.conf file from 80 to 18080
+17. Restart the httpd service
+18. Run a command to check if the url is up and running
+19. Run the uptime command on remote machine
+20. Execute the command in remote shell; stdout goes to the specified file on the remote machine
+21. Replace http string to uttp in the httpd.conf file
+22. Get the stats of the /etc/httpd/httpd.conf file
+
+Playbooks
+==================
+1. Download a playbook to download pdf file from internet
+2. Write a playbook to send a email to a mailID
+3. Dry Run a playbook
+4. Run a task in the playbook as root user
+5. Schedule a command to execute in 20 minutes as root
+6. Determine if a path exists and is a directory.  Note that we need to test
+7. Obtain the stats of /etc/foo.conf, and check that the file still belongs to root user
+8. Determine if a path exists and is a directory?
+9. Run the task if the Remote machine belong to Redhat flavor?
+10. Write a playbook to install and configure Httpd Server
+11. Write a playbook to install and configure Nginx server
+12. Write a playbook to install java and configure the environment variables?
+13. Write a Playbook to download source code from Github 
+14. Write a playbook to install and configure Maven on the remote machine. Also make sure to configure the environment variables
+15. Write a playbook to install and configure tomcat on the remote machine. Also make sure to run the tomcat server on 18080 port
+16. Write a playbook to checkout source code from github and build the source code using Maven tool
+17. Write a playbook to build the docker image from Dockerfile and run the container
+18. Write a playbook to configure a Aws Ec2 instance
+19. How to change the hostname of the remote machine using playbook
+20. Create a CRON job entry using playbook
+21. Check if a file is available or not and if available run a task
+22. Check if a file is available and run a task if the file belong to root user
+23. Run a task if a directory with the name "hello" exists
+24. Run a uptime command in the remote machine and it this is success run another task based on this
+25. Run a uptime command, and run another task if the uptime command output contains "load" string
+26. Run a playbook to restart a httpd service
+27. Run a playbook to check if the remote machine /etc/passwd contains "root" string
+
+
+
+
+
+Roles
+=================
