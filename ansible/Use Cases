@@ -1,0 +1,27 @@
+Playbooks
+1. Restarting Macfee service on more than 1000 machines as a part of Patching
+2. Upgrading all the Virtual Machines with Nagios agent configuration
+3. Upgrading the web servers [tomcat] with admin users for more than 50 machines
+4. Identifying the confineous drift ( changes in machines configuration ) using playbooks
+5. Performing a Weekly system reboot
+6. disable port 339 on more than 500 machines  using playbook
+7. Configure the Network time protocal ( NTP ) server with a default company configuration file.
+8. Adding the tag names to all ec2 instances with the company standards.
+9. Create a playbook for Cleaning the Data dump on all mainframe machines
+10. Running a playbook to restart the chef agent on all machines. this goes to every machine and checks if the agent is down or up. If it is down, it restarts the agent. 
+11. Prune all the docker images, containers, network on all docker running machines.
+12. Running a playbook for performing health check for all web, tomcat and elastic search servers by hitting a URL using the anibible rest calls.
+
+
+
+
+Roles
+1. Splunk upgrade
+2. Upgrading all the Virtual Machines with Nagios agent configuration
+3. Configuring a new Ec2 Instance
+4. Complete CI/CD Implementation by installing java,maven, tomcat. Clone the code from github.
+5. COnfigure LAMP stack for necessary application teams.
+6. Downloading all 32 docker images files from JFROG repository and creating a ISO file using these images
+7. Role for downloading the docker images files from JFROG repository and starting the docker containers using ansible
+
+
