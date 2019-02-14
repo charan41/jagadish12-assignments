@@ -24,7 +24,7 @@ Adhoc Commands
 
 Playbooks
 ==================
-1. Write a playbook to download pdf file from internet
+1. Write a playbook to download pdf file from internet ( ex download the pdf file any link)
 2. Write a playbook to send a email to a mailID
 3. Dry Run a playbook
 4. Run a task in the playbook as root user
@@ -37,8 +37,10 @@ Playbooks
 11. Write a playbook to install and configure Nginx server
 12. Write a playbook to install java and configure the environment variables?
 13. Write a Playbook to download source code from Github 
-14. Write a playbook to install and configure Maven on the remote machine. Also make sure to configure the environment variables
-15. Write a playbook to install and configure tomcat on the remote machine. Also make sure to run the tomcat server on 18080 port
+14. Write a playbook to install and configure Maven on the remote machine. Also make sure to configure 
+    the environment variables
+15. Write a playbook to install and configure tomcat on the remote machine. Also make sure to run the tomcat 
+    server on 18080 port
 16. Write a playbook to checkout source code from github and build the source code using Maven tool
 17. Write a playbook to build the docker image from Dockerfile and run the container
 18. Write a playbook to configure a Aws Ec2 instance
@@ -51,7 +53,7 @@ Playbooks
 25. Run a uptime command, and run another task if the uptime command output contains "load" string
 26. Run a playbook to restart a httpd service
 27. Run a playbook to check if the remote machine /etc/passwd contains "root" string
-
+28. Write a Playbook to install nexus repo server and configure it with a different port
 
 
 
