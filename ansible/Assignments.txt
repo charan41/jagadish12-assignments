@@ -24,7 +24,7 @@ Adhoc Commands
 
 Playbooks
 ==================
-1. Download a playbook to download pdf file from internet
+1. Write a playbook to download pdf file from internet
 2. Write a playbook to send a email to a mailID
 3. Dry Run a playbook
 4. Run a task in the playbook as root user
