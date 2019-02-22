@@ -1,0 +1,27 @@
+1. Configure a Jenkins Job to monitor a Port in linux Machine
+2. Configure Email service in Jenkins to send an email using your gmail ID
+3. Configure a Jenkins Job to Monitor disk space and send an email to a gmail ID
+4. How to enable Https in Jenkins
+5. How to run jenkins behind Nginx
+6. How to run Jenkins behind Httpd 
+7. Integrate Amazon S3 bucket with jenkins and push a artifact to the s3 bucket
+8. Configure GitLab and integrate with Jenkins?
+9. Configure Jenkins to backup all the workspace to a Amazon s3 bucket every night at 11:55 PM
+10. Compile the application using the Jenkins Maven plug-in.
+11. Configure Sonar Qube in jenkins for quality Check for Java application
+12. Configure Nexus Repository Server in Jenkins and upload a War file to the nexus server
+13. Configure Junit Plugin and run Unit tests available in java application
+13. COnfigure Jacoca Plugin and generate coverage report
+14. Obtain manual sign-off by the user acceptance team by including a Groovy script in the Jenkins pipeline.
+15. Archive all of the generated reports for future reference.
+16. Configure Job to pull java application from Github a build a war file from it
+17. Configure jenkins to let linux machine users login to jenkins
+18. Configure a Project based authorization for a jenkins java job
+19. Configure a matrix based authorization for a jenkins java job
+20. Configure role based strategy in Jenkins
+21. Configure Tomcat in Jenkins to deploy a war file to that tomcat
+22. Configure Blazemeter performance tool in jenkins and run some performance test
+23. Configure Jire in Jenkins 
+24. Configure Redmine tool in Jenkins and create a ticket if the jenkins job fails
+25. Configure Editable email plugin in jenkins
+26. COnfigure Jenkins pipeline to build a Maven Java project

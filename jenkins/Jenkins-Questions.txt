@@ -1,0 +1,87 @@
+1. How to restart Jenkins manually?
+2. What is the difference between hudson and jenkins?
+3. How to set environment variables in Jenkins?
+4. How to uninstall Jenkins?
+5. How to change the build number for a job in Jenkins?
+6. How to configure the sender email address in jenkins?
+7. How can i show the status of the job back in Github?
+8. How can i clone the code from a Git repository from a local machine?
+9. How to move jenkins from one machine to another?
+10. How can i disable and enable security in jenkins?
+11. Where does Jenkins store configuration files for the jobs it runs?
+12. How can trigger a Jenkins build from outside of Jenkins?
+13. How can i Update the Jenkins War file running in tomcat?
+14. How can i get the list of plugins installed in jenkins?
+15. How can i configure jenkins to run on different port?
+16. How can i configure jenkins to run as different user than jenkins?
+17. How can i enable bash shell for the jenkins user?
+18. How can i let jenkins to pass variable between 2 jobs?
+19. What is the default jenkins password?
+20. How to stop an unstoppable zombie job on Jenkins without restarting the server?
+21. What is the difference between jenkins and maven?
+22. How can i get the version of java and maven used by jenkins?
+23. How can i change the default installation location for jenkins in linux?
+24. How to shutdown my jenkins safely?
+25. How can I point Jenkins to another .jenkins home directory?
+26. What is distributed build system in jenkins?
+27. How can i find the ip address of the slave machine connected to jenkins server?
+28. What are the types of jobs available in jenkins?
+29. How to enable https in Jenkins
+30. How to run jenkins behind Nginx
+31. How to run Jenkins behind Httpd 
+32. Is there a way to cleanup jenkins workspace
+33. How can i clean workspace after the job is complete
+34. Can a jenkins server trigger a job available on another jenkins server?
+35. How to unlock jenkins?
+36. How can i upgrade jenkins?
+37. How can i downgrade jenkins?
+38. How to trigger jenkins job remotely and pass parameters?
+39. How to get Jenkins list of job details using Jenkins client in Java
+40. How can i disable stdout from Jenkins Server?
+41. How do I make Jenkins build fail when Maven unit tests fail? 
+42. how can assign more memory and swap to jenkins?
+43. How to schedule a Job in Jenkins?
+44. How can i monitor a port using jenkins
+45. What are views in Jenkins?
+46. How can i enable/disable jobs in jenkins server?
+47. How to run a script as root in Jenkins?
+48. What is consoleFull in jenkins?
+49. How to exeucte a Shell command after build?
+50. How to exeucte a shell command if the build is failed?
+51. How do i uninstall a jenkins plugin?
+52. How to uninstall Jenkins when I installes jenkins by war file?
+53. i already have a user name Jenkins, now can i install jenkins and if yes how?
+54. How can i copy existing jenkins configuration to a new jenkins server running on different machine?
+55. What are some of the most usefull plugins in jenkins?
+56. How to turn off Jenkins security if the administrative users have locked out of the admin console?
+57. If there is a broken build in your Jenkins project, then what do you do?
+58. What are the possible use cases for Jenkins?
+59. Do you know the programming language that is used to build Jenkins?
+60. What are the features of Jenkins DevOps Tool?
+61. What do you mean by continuous integration in Jenkins?
+62. How will you explain the concept of pipeline in Jenkins?
+63. Define the continuous delivery pipeline in Jenkins?
+64. What is Jenkins File and why it is needed in DevOps?
+65. Define the declarative pipeline in the Jenkins?
+66. Mention a few plugins that are frequently used by the developers.
+67. Is there any relationship between Hudson and Jenkins?
+68. Name a Jenkins environment variable you have used in a shell script or batch file.
+69. Name three security mechanisms Jenkins uses to authenticate users.
+70. Name two ways a Jenkins node agent can be configured to communicate back with the Jenkins master.
+71. What are jobs in jenkins?
+72. What is a pipeline in Jenkins
+73. How to create a Multi branch pipeline in Jenkins?
+74. What are the various ways in which build can be scheduled in Jenkins?
+75. How can you temporarily turn off Jenkins security if the administrative users have locked themselves out of the admin console?
+76. Polling a Git repository for new commits is considered a Jenkins anti-pattern. What is a sound alternative to SVN polling?
+77. How to Github organization in Jenkins
+78. What you do to make sure that your project build doesn't break in Jenkins ?
+79. What you do when you see a broken build for your project in Jenkins ?
+80. What are the different job permissions possible in Jenkins, and what are the reasons you would use each?
+81. How do you fetch a job's artifacts from a remote system? Do you need a plugin to do this?
+82. How do you connect a build node to the Jenkins master with out using a web browser or being in front of the physical machine?
+83. Is it possible for the users to move the Jenkins from one server to another without changing its content?
+84. Is there any plugin available for checking disk that jenkins uses?
+
+
+
