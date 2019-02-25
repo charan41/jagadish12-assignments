@@ -1,0 +1,20 @@
+1. Create a basic Container in normal Mode
+2. Create a Container in Detatched mode
+3. Create a container in attached mode
+4. Create a container with name "sampletesting"
+5. Create a container that run a command "sleep 30" inside a container
+6. Create a Container with out using docker commands
+7. Run HTTPD server inside a Ubuntu Container and access that from Host
+8. Run Nginx Server inside a Centos Container and access that from Hosy
+9. Run a Sleep Command inside a container that has no network 
+10. Run a Http Server that can be accessed by the Host machine IP address
+11. Run a Python Sample application in a Ubuntu container
+12. Run a Sample Java Application in a Debain Container
+13. Run a Sample Java Web application with tomcat inside a Centos Container
+14. Run a Sample Java application inside a container with memory of 512mb and swap of 300mb
+15. Clone a Github Repo inside a Centos Container
+16. Run a java application in a container that talks to a Database running on the host machine
+17. Run a java application in a container that talks to a Database running in another container
+18. Create a Redis server in a container
+19. Create a link between 2 containers
+20. 

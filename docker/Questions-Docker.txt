@@ -1,0 +1,180 @@
+1. What is Docker?
+2. What is a Container?
+3. What is the difference between a Container and VM?
+4. Can we create a container without Docker?
+5. What are the other container technologies in market?
+6. What is the first container implementation?
+7. What is BSD Jails Concept?
+8. What are solaris Zones?
+9. What is Chroot?
+10. What is a Cgroup
+11. What are namespaces
+12. What is UnionFs filesystem
+13. What is a Image 
+14. What is the difference between image and container
+15. What is registry 
+16. What are the advantage of using containers?
+17. How is docker different from other container technologies?
+18. Do Docker containers package up the entire OS and make it easier to deploy?
+19. What OS can the Docker Engine run on?
+20. How many containers can run per host?
+21. What is a Docker engine
+22. What is a docker server
+23. What is the Docker Cli 
+24. how does a docker engine work?
+24. How does docker talk to the Host operating system
+25. Can i run a rhel container on a Centos machine?
+26. Can i install docker engine on a remote machine and create containers on local machine
+27. Where does the docker image files stored
+28. How many types a container can be ran
+29. Can i connect to an running container
+30. Is there a way to copy file from host machine to container 
+31. how to copy file from docker container to host using shell script?
+32. How can i assign memory to the container
+33. How can i assign swap to the container 
+34. Will there be default memory and swap available to a container?
+35. How does logging work in container
+36. where does the container logs are stored?
+37. is there any way to get logs regarding to container on the host machine
+38. Is it possible to get any server logs in a container's var/log?
+39. How can i mount a directory to the container
+40. Can i mount a directory to a container that i already mounted to another container
+41. is there a way to mount all directories mounted on container A to Container B
+42. Docker container is not accessiable on localhost but accessable on 127.0.0.1? how to troubleshoot
+43. How can i expose a port from container?
+44. How can i create a container with no ip address
+45. How can i create a container with no network
+46. How can i create a container that has the host machine network
+47. What is dockerd
+48. How to run dockerd in the background without logs
+49. How can i connect 2 containers
+50. is there any way to link 2 containers
+51. What is a container network mode
+53. How can i save a container to tar file
+54. How can i extract a image file
+55. How can i export and import containers
+56. How can i get the Ip address of a container
+57. What is docker hub
+58. Can i run my own docker registry in my local machine
+59. Can i run database inside a container
+60. How to access external db service running on host in Docker Container?
+61. Is it possible to increase the memory limit of a docker container after it is started? 
+62. How to pause a container 
+63. Can i create a docker container from within another docker container
+64. How to solve java out of memory issue inside a container
+65. What happens to a docker container when the docker engine is dead
+66. Can i get the pid of the docker container 
+67. How can i get the docker container performance details while container is running
+68. How can i clone a github repo from inside a container
+69. How can i save a container to a image file
+70. When mount a host symlink to container, is it possible not to dereference it?
+71. Can i configure a nginx reverse proxy server before a docker container
+72. What is docker0
+73. How can I check a docker image if theres are commands run by root
+74. How can i Start docker container after another container exits
+75. How can a linux container work on windows without a linux virtual machine (ie: native support)
+76. What is the best practice to containerize a java web application
+77. How to access containers from external IP?
+78. How to set udp buffer size for a docker container?
+79. How to change the network of a running docker container?
+80. How to exclude subfolders when using volume?
+81. What are use cases for using Windows Containers instead of Linux containers on Windows?
+82. how to identify if any applications inside docker container as running as root
+83. How to bash as normal user in Docker?
+84. Can i configure docker container to have multiple process to listen on one port?
+85. What is the difference between docker exec -ti and docker exec -it?
+86. Is there a preferred way to ship data with docker?
+87. What is difference between docker pool and docker registry?
+88. How can i modify an existing docker image
+89. How to run shell scripts along with java applications using docker?
+90. How can i run a container in detatched mode
+91. How can i run a container background 
+92. How to use Docker API to get the Mac Address of the container - from within the container
+93. How to reach a docker network from host using dns?
+94. How to Copy and Extract a .tar file inside a Docker Container
+95. How do i make my docker container accessible to machines other than my host machines
+96. How can i expose a container with a specific ip address
+97. How to attach volume while running a docker container?
+98. How to make a container comunicate with non-containerized application 
+99. What is Dockerfile used for?
+100. Can I use json instead of yaml for my compose file in Docker?
+101. What is ENTRYPOINT in Dockerfile
+102. What is CMD in Dockerfile
+103. what are the difference between ENTRYPOINT and CMD.
+104. How far do Docker containers scale?
+105. Do I lose my data when the Docker container exits?
+106. What is the use of ONBUILD in Dockerfile
+107. what is the difference between COPY and ADD in Dockerfile
+108. What is the difference between ENV and ARG in Dockerfile
+109. How can i find the difference between same images
+110. How can i see what changes are done to the docker image file
+111. How will you remove an image from Docker?
+112. What is the difference between Docker commands: up, run and start?
+113. What is Docker Swarm?
+114. What are the features of Docker Swarm?
+115. What is docker machine
+116. How will you take backup of Docker container volumes in AWS S3?
+117. What are the three main steps of Docker Compose?
+118. What is Pluggable Storage Driver architecture in Docker based containers?
+119. What are the main security concerns with Docker based containers?
+120. What are the security benefits of using Container based system?
+121. How can we check the status of a Container in Docker?
+122. How does Docker simplify Software Development process?
+123. What is the basic architecture behind Docker?
+124. What are the popular tasks that you can do with Docker Command line tool?
+125. What type of applications- Stateless or Stateful are more suitable for Docker Container?
+126. How can Docker run on different Linux distributions?
+127. How can Docker container share resources?
+128. What is Build cache in Docker?
+129. What are the most common instructions in Dockerfile?
+130. What is the purpose of EXPOSE command in Dockerfile?
+131. What are the different kinds of namespaces available in a Container?
+132. How will you monitor Docker in production?
+133. What are the Cloud platforms that support Docker?
+134. What is docker compose?
+135. Have you ever used Docker on your production environment?
+136. Why did you choose Docker for that?
+137. What came out to be good point and bad point of using Docker?
+138. Explain how to keep the containers alive, even when the Docker Daemon is down
+139. How to view the logs for the last 1 hour, logs for a particular date, tail the log of a container continuously?
+140. How to get the IP address and gateway details of the container? List 5 ways to get it.
+141. How to start Containers that will run as user with normal Privileges and not as Root user?
+142. What is the key issue addressed by using docker run command with option –devicewrite-bps
+143. What is the Command to list all the ports used by a container?
+144. How to list all the Mapped ports in a container?
+145. Why layers are important in Docker?
+146. What are the commands that will create layers?
+147. How to list the Docker layers of a Container?
+148. Where layers can be physically located?
+149. What is aufs and how it related to layers in Docker?
+150. What is the difference between docker ps and docker ps -a commands?
+151. How to list the non-running containers?
+152. How to list containers that are using redis image?
+153. How to list the containers that exit before last 30 minutes?
+154. How to list containers that have ports 80 and 443 published?
+155. How to list containers with their commands?
+156. How to copy Docker images between hosts?
+157. Explain about docker-default profile and the steps to create a new profile with different set of permissions
+158. What is the lifecycle of Docker Container?
+159. How can i change from one user to another in Dockerfile
+160. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
