@@ -25,3 +25,5 @@
 24. Configure Redmine tool in Jenkins and create a ticket if the jenkins job fails
 25. Configure Editable email plugin in jenkins
 26. COnfigure Jenkins pipeline to build a Maven Java project
+27. Configure WebSite status monitor using Jenkins
+28. Confiure jenkins to monitor port running on a machine
