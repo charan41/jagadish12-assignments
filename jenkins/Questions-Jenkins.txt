@@ -82,6 +82,129 @@
 82. How do you connect a build node to the Jenkins master with out using a web browser or being in front of the physical machine?
 83. Is it possible for the users to move the Jenkins from one server to another without changing its content?
 84. Is there any plugin available for checking disk that jenkins uses?
+85. What is Contineous Integration
+86. What are the principals of contineous integration
+87. What is Contineous Delivery
+88. What is Contineous Deployment
+89. What is Software Composition analysis
+90. How to scan third party libraries in CI/CD
+91. How do you setup a script to run every time a repository receives new commits through push?
+92. Why do you need a Continuous Integration of Dev & Testing?
+93. How will you secure Jenkins?
+94. What is Multi configuration job in jenkins
+95. What is automated testing
+96. What is unit testing
+97. What is Junit Plugin and where is that used
+98. What is Jacoca plugin and where is that used
+99. what is a github pull request
+100. What is a Jenkins Pipeline?
+101. What is Declarative Pipeline in Jenkins?
+102. What is the agent directive in Jenkins?
+103. what is build agent in jenkins
+104. what is distributed jenkins 
+105. What are Parameters in Jenkins?
+106. what is stage
+107. what is the difference between stage,stages and steps
+108. What is environment directive?
+109. What is options directive?
+110. what is an upstream and downstream job
+111. What are triggers?
+112. What is input directive?
+113. What is Parallel in Jenkins?
+114. What is Scripted Pipeline in Jenkins?
+115. how to export or import jobs from one jenkins to another
+116. How to schedule jobs in jenkins
+117. How can i change jenkins job build number
+118. How can i connect jenkins from command line
+119. How can i ssh to jenkins server
+120. How can Show current state of Jenkins build on GitHub repo 
+121. What is the difference between node and agent
+122. What is a workspace in jenkins job
+123. How can i clean workspace from Jenkins Job
+124. Where does jenkins save credentials created
+125. How to reset Jenkins security settings from the command line? 
+126. What shell does Jenkins use? 
+127. How can i change home directory of the Jenkins user
+128. How to list all `env` properties within jenkins pipeline job? 
+129. How to install a plugin in Jenkins manually 
+130. What is hpi extension file
+131. Jenkins Git Plugin: How to build specific tag? 
+132. How can I point Jenkins to another .jenkins home directory? 
+134. How to Find IP of a Jenkins node 
+135. What are executors in Jenkins
+136. How to create a Jenkins Job using jenkins rest api
+137. How can i trigger a jenkins job from another jenkins job
+138. where are jenkins logs available
+139. How can i see the system configuration on which jenkins is running
+140. Why does Jenkins complain that my reverse proxy setup is broken?
+141. How to become a jenkins user
+142. How to check jenkins node connection status using jenkins-cli 
+143. How can i restart jenkins slave from jenkins master
+144. How to add a timeout step to Jenkins Pipeline 
+145. How can i call SSH command from Jenkins 
+146. How to handle jenkins out of memory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

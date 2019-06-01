@@ -11,7 +11,7 @@
 11. Configure Sonar Qube in jenkins for quality Check for Java application
 12. Configure Nexus Repository Server in Jenkins and upload a War file to the nexus server
 13. Configure Junit Plugin and run Unit tests available in java application
-13. COnfigure Jacoca Plugin and generate coverage report
+13. Configure Jacoca Plugin and generate coverage report
 14. Obtain manual sign-off by the user acceptance team by including a Groovy script in the Jenkins pipeline.
 15. Archive all of the generated reports for future reference.
 16. Configure Job to pull java application from Github a build a war file from it
@@ -27,3 +27,4 @@
 26. COnfigure Jenkins pipeline to build a Maven Java project
 27. Configure WebSite status monitor using Jenkins
 28. Confiure jenkins to monitor port running on a machine
+
