@@ -1,0 +1,71 @@
+Project 1: This is a Java application CI/CD Pipeline deploying to Tomcat web server
+
+1. Commit your source code into the Github
+2. A webhook in Github will trigger a Jenkins Job.
+3. Jenkins Job builds the source code and packages the code in a distributed build machine
+4. It then uses Sonar qube to scan the source code for quality check
+5. It then uses Source clear to perform a third party analysis check
+6. It then displays the unit test results in Junit
+7. It then displays the unit test code coverage in Jacoca 
+8. It then uploads the war ( package ) to the nexus artifactory
+9. It then triggers a Perfroamce test in the blazemeter
+10. Notifications 
+Once the build is success, it creates a Pagerduty ticket and send a email from pagerduty to anyone
+Once the build is failure, it creates a Pagerduty ticket and send a email from pagerduty to anyone
+
+11. It also sends a notification to a slack channel if build is success or failure.
+12. finally it deploys the war file to a tomcat server using the Deploy to container plugin.
+
+----------------------------------
+Project 2: this is a java application CI/CD pipeline
+
+1. Commit your source code into the Github
+2. A webhook in Github will trigger a Jenkins Job.
+3. Jenkins Job builds the source code and packages the code in a distributed build machine
+4. It then uses Sonar qube to scan the source code for quality check
+5. It then uses Source clear to perform a third party analysis check
+6. It then displays the unit test results in Junit
+7. It then displays the unit test code coverage in Jacoca 
+8. It then uploads the war ( package ) to the nexus artifactory
+9. It then triggers a Perfroamce test in the blazemeter
+10. send a mail to anyone if the build is success or failure
+11. Inject secrets to jenkins with 2 variables JAVA_VERSION and TOMCAT_VERSION. 
+11. finally it triggers a ansible role which will run on the remote machine
+    the role includes - 
+       takes JAVA_VERSION and TOMCAT_VERSION as role arguments passed from the secrets injected from jenkins in above step
+       installation of java 
+       installation of tomcat
+       ADD JAVA_HOME and TOMCAT_HOME to .bashrc
+       Change the http port to 18080
+       add users tomcat/tomcat for tomcat server
+ 12. once the java and tomcat installations are complete, another ansible playbook will run
+      this playbook includes -
+        upload the war file created as a part of build to the tomcat/webapps location
+        restart the server and wait until the port 18080 come up
+ 13. access the application from command line using a ansible playbook and if the application is up successfully  send a mail to anyone using another ansible playbook "saying deployment is success"
+
+NOTE - the ansible roles and playbooks should include Idempotency. if i run the roles and playbook again and again, tasks should not run multiple times
+
+---------------------------
+project 3 : this is a java application
+1. Commit your source code into the Github. 
+2. A webhook in Github will trigger a Jenkins Job.
+3. Jenkins Job builds the source code and packages the code in a distributed build machine
+4. It then uses Sonar qube to scan the source code for quality check
+5. It then uses Source clear to perform a third party analysis check
+6. It then displays the unit test results in Junit
+7. It then displays the unit test code coverage in Jacoca 
+8. It then uploads the war ( package ) to the nexus artifactory
+9. It then triggers a Perfroamce test in the blazemeter
+10. It triggers a ansible playbook 
+    the playbook will clone a repo from github which contains a Dockerfile. the Dockerfile should contain a instruction to upload the war file generated as a process of build above
+    it then build a image from the Dockerfile
+    upload the image to the dockerhub ( any account )
+    delete the image from local machine
+
+11. trigger another ansible playbook which will set ip range to docker.
+12. start the docker container by pulling the image from Dockerhub
+13. test if the application is working fine by running curl command
+14. send a note to the pagerduty and send a mail notification from it to anyone if application deployment is either success or failure
+
+NOTE - the ansible roles and playbooks should include Idempotency. if i run the roles and playbook again and again, tasks should not run multiple times
