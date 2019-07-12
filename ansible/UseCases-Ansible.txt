@@ -13,7 +13,44 @@ Playbooks
 12. Running a playbook for performing health check for all web, tomcat and elastic search servers by hitting a URL using the anibible rest calls.
 
 
+13. Write an ansible playbook to check whether subnet mask is 24 bit for all on premise servers
+   to check this, run "ifconfig | awk &#39;/Mask:/{ print $4;}" to get the details
 
+
+14. Write an ansible playbook to check if the swap is same as physcial memory.
+   to get this , run "free -g" to make sure swap space is same as physcial memory
+
+
+15. Write an ansible playbook to check if the time service is up and running and if running it is pointing to 
+   the correct routes
+   run "service ntpd status"  to get ntpd server is running or not
+   run "ntpq -p" to get a list of routes that time service is pointing to
+
+16. write an ansible playbook to see if the on prem servers are pointing to the correct dhcp servers.
+   to get this , check the /etc/resolv.conf file and compare the list over there with your list of servers. 
+   once good all good
+
+
+17. Write a ansible playbook to check if the vmtools package is installed or not on all RHEL machines.
+   this package is used by Vmvare tools. To get the details run "systemctl status vmtoolsd.service" to check if 
+   this is active or not 
+   also for confirmation run "/etc/vmware-tools/services.sh status" to get the status
+
+
+18. Write a playbook to check if all DB related disks are mounted and mount if any is missing.
+   check the "df -hT" to get all file system and file system entry should start with "DB" like below
+   /dev/mapper/bkupvg-bkuplv 168G 75G 84G 48% /dbbackup11g
+
+   If not available, use the mount command to do that.
+
+19. Write a playbook to check all the x11 and xorg packages are installed if not install the packages.
+
+20. Write an ansible playbook to connect to all aws instances running and put the private ip and public ip
+   of the aws instance into /opt/private-ip and /opt/public-ip for developer usage
+   To get the private ip insicde the ec2 instance run "curl http://169.254.169.254/latest/meta-data/local-ipv4"
+   To get publich ip inside the ec2 instance run "curl http://169.254.169.254/latest/meta-data/public-ipv4"
+
+   
 
 Roles
 1. Splunk upgrade
@@ -23,5 +60,3 @@ Roles
 5. COnfigure LAMP stack for necessary application teams.
 6. Downloading all 32 docker images files from JFROG repository and creating a ISO file using these images
 7. Role for downloading the docker images files from JFROG repository and starting the docker containers using ansible
-
-
