@@ -1,0 +1,54 @@
+1. Input a number and write logic to check if that number is even or odd
+2. Input a number and write logic to check if that number is prime or not
+3. Input a Char and print if that is alphabet or not
+4. Input a Char and print if that is vowel or not
+5. Input a Year and print if that is lear year or not
+6. Input 2 number and see if both of them are same
+7. Input a string and print the number of char in that string
+8. Input a string and see if that string starts with Char "A"
+9. Input a char and see if that is upper case or lower case
+10. Write a Python program to find those numbers which are divisible by 7 and multiple of 5, between 1500 and 2700
+11. Write a Python program that accepts a word from the user and reverse it.
+12. Write a Python program to count the number of even and odd numbers from a series of numbers
+13. Write a Python program which iterates the integers from 1 to 50. For multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+14. Write a Python program that accepts a sequence of lines (blank line to terminate) as input and prints the lines as output (all characters in lower case)
+
+15. Write a Python program which accepts a sequence of comma separated 4 digit binary numbers as its input and print the numbers that are divisible by 5 in a comma separated sequence. 
+Sample Data : 0100,0011,1010,1001,1100,1001
+Expected Output : 1010
+
+16. Write a Python program that accepts a string and calculate the number of digits and letters. 
+Sample Data : Python 3.2
+Expected Output :
+Letters 6
+Digits 2
+
+17. Write a Python program to check the validity of password input by users. 
+Validation :
+    At least 1 letter between [a-z] and 1 letter between [A-Z].
+    At least 1 number between [0-9].
+    At least 1 character from [$#@].
+    Minimum length 6 characters.
+    Maximum length 16 characters.
+
+18. Write a Python program to convert month name to a number of days. 
+Expected Output:
+List of months: January, February, March, April, May, June, July, August, September, October, November,December                                
+Input the name of Month: February                                       
+No. of days: 28/29 days 
+
+19. Write a Python program to sum of two given integers. However, if the sum is between 15 to 20 it will return 20
+
+20. Write a Python program to check a string represent an integer or not. 
+Expected Output:
+Input a string: Python                                                  
+The string is not an integer.  
+
+21. Write a Python program to find the median of three values. 
+Expected Output:
+Input first number: 15                                                  
+Input second number: 26                                                 
+Input third number: 29                                                  
+The median is 26.0   
+
+22. Write a Python program to calculate the sum and average of n integer numbers (input from the user). Input 0 to finish
