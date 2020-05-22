@@ -10,12 +10,16 @@
 10. Write a Python program to find those numbers which are divisible by 7 and multiple of 5, between 1500 and 2700
 11. Write a Python program that accepts a word from the user and reverse it.
 12. Write a Python program to count the number of even and odd numbers from a series of numbers
-13. Write a Python program which iterates the integers from 1 to 50. For multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
-14. Write a Python program that accepts a sequence of lines (blank line to terminate) as input and prints the lines as output (all characters in lower case)
+13. Write a Python program which iterates the integers from 1 to 50. For multiples of three 
+    print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which 
+    are multiples of both three and five print "FizzBuzz".
+14. Write a Python program that accepts a sequence of lines (blank line to terminate) as input 
+    and prints the lines as output (all characters in lower case)
 
-15. Write a Python program which accepts a sequence of comma separated 4 digit binary numbers as its input and print the numbers that are divisible by 5 in a comma separated sequence. 
-Sample Data : 0100,0011,1010,1001,1100,1001
-Expected Output : 1010
+15. Write a Python program which accepts a sequence of comma separated 4 digit binary numbers as its input and 
+    print the numbers that are divisible by 5 in a comma separated sequence. 
+    Sample Data : 0100,0011,1010,1001,1100,1001
+    Expected Output : 1010
 
 16. Write a Python program that accepts a string and calculate the number of digits and letters. 
 Sample Data : Python 3.2
@@ -37,7 +41,8 @@ List of months: January, February, March, April, May, June, July, August, Septem
 Input the name of Month: February                                       
 No. of days: 28/29 days 
 
-19. Write a Python program to sum of two given integers. However, if the sum is between 15 to 20 it will return 20
+19. Write a Python program to sum of two given integers. However, if the sum is between 15 to 20 it will 
+    return 20
 
 20. Write a Python program to check a string represent an integer or not. 
 Expected Output:
@@ -51,4 +56,42 @@ Input second number: 26
 Input third number: 29                                                  
 The median is 26.0   
 
-22. Write a Python program to calculate the sum and average of n integer numbers (input from the user). Input 0 to finish
+22. Write a Python program to calculate the sum and average of n integer numbers (input from the user). 
+Input 0 to finish
+
+Functions
+Write a Python function to find the Max of three numbers. Go to the editor
+
+Write a Python function to sum all the numbers in a list. 
+Sample List : (8, 2, 3, 0, 7)
+Expected Output : 20
+
+Write a Python function to multiply all the numbers in a list. 
+Sample List : (8, 2, 3, -1, 7)
+Expected Output : -336
+
+Write a Python program to reverse a string. 
+Sample String : "1234abcd"
+Expected Output : "dcba4321"
+
+Write a Python function to calculate the factorial of a number (a non-negative integer). The function 
+accepts the number as an argument. 
+
+Write a Python function to check whether a number is in a given range
+
+Write a Python function that accepts a string and calculate the number of upper case letters and 
+lower case letters. 
+Sample String : 'The quick Brow Fox'
+Expected Output :
+No. of Upper case characters : 3
+No. of Lower case Characters : 12
+
+Write a Python function that takes a number as a parameter and check the number is prime or not.
+
+Write a Python function that checks whether a passed string is palindrome or not. 
+
+Write a Python function to check whether a string is a pangram or not. 
+Note : Pangrams are words or sentences containing every letter of the alphabet at least once.
+For example : "The quick brown fox jumps over the lazy dog" 
+
+Write a Python function to create and print a list where the values are square of numbers between 1 and 30 
